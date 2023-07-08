@@ -198,7 +198,30 @@ main section{
 /* Footer Styles */
 .footer-container{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 130px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.contact-form input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    color: #757575;
+    padding: 18px 35px;
+    background: #FFF;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 100px;
+}
+
+.footer-column button{
+    margin-left: 100px;
+}
+
+.social-links a{
+    margin-right: 30px;
 }
