@@ -4,6 +4,21 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 
 
 
@@ -52,13 +67,46 @@ nav a{
 /* Header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .bannar .profile-pic{
-    width: 500px;
+   width: 500px;
     
+}
+.bannar-greetings{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+   
+}
+.bannar-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    
+}
+.bannar-description{
+    margin-top: 20px;
+    color: #757575;
+}
+.bannar-content{
+    max-width: 500px;
+}
+
+
+/* Main Section */
+/* About Section Styles */
+.about{
+    padding: 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
